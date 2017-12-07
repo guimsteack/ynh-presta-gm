@@ -12,11 +12,12 @@ Source: [prestashop.com](https://www.prestashop.com/)
 
 ### Installation
 
-`$ sudo yunohost app install https://github.com/YunoHost-Apps/prestashop_ynh.git`
+#`$ sudo yunohost app install https://github.com/YunoHost-Apps/prestashop_ynh.git`
+`$ sudo yunohost app install https://github.com/guimsteack/ynh-presta-gm.git`
 
 ### Mise à jour
 
-`$ sudo yunohost app upgrade --verbose prestashop -u https://github.com/YunoHost-Apps/prestashop_ynh.git`
+`$ sudo yunohost app upgrade --verbose prestashop -u https://github.com/guimsteack/ynh-presta-gm.git`
 
 ### Utilisation
 
@@ -45,3 +46,4 @@ https://www.domain.tld/prestashop/admin
 ###Version 1.0.1 (01/12/17) -> adaptation GM
 
 - Create script install
+- Update Prestatshop 1.7.2.4
