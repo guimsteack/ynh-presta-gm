@@ -12,7 +12,6 @@ Source: [prestashop.com](https://www.prestashop.com/)
 
 ### Installation
 
-#`$ sudo yunohost app install https://github.com/YunoHost-Apps/prestashop_ynh.git`
 `$ sudo yunohost app install https://github.com/guimsteack/ynh-presta-gm.git`
 
 ### Mise à jour
