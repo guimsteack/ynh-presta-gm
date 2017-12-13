@@ -115,7 +115,7 @@ sudo php index_cli.php \
 		--email=$email \
 		--domain=$domain \
 		--base_uri=$path \
-		--prefix=_ps_ 
+		--prefix=ps_ 
 popd
 
 sudo rm -fr $final_path/install
