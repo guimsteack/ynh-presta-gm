@@ -4,7 +4,7 @@
 # CHECKING
 #=================================================
 
-ynh_version="2.4"
+ynh_version="2.7"
 
 YNH_VERSION () {	# Renvoi le numéro de version de la moulinette Yunohost
 	ynh_version=$(sudo yunohost -v | grep "moulinette:" | cut -d' ' -f2 | cut -d'.' -f1,2)
